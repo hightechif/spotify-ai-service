@@ -1,0 +1,102 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.env.*
+!.env.example
+!.env.template
+env/
+venv/
+.venv/
+.uv-cache/
+ENV/
+
+
+### Testing & Coverage ###
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+### Type Checking & Linting ###
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.pyright/
+.dmypy.json
+dmypy.json
+
+### Logs ###
+*.log
+pip-log.txt
+
+### Database ###
+*.db
+*.sqlite
+*.sqlite3
+test.db
+db.sqlite3
+db.sqlite3-journal
+
+### Virtual Environments / Tools ###
+.pdm-python
+.pdm-build/
+.pdm.toml
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+
+### IDEs & Editors ###
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyproject
+
+### OS Generated ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Agent internal data
+.agent/
+.claude/

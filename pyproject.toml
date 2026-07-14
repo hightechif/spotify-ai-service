@@ -1,0 +1,15 @@
+[project]
+name = "spotify-ai-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.139.0",
+    "langchain>=1.3.11",
+    "langchain-ollama>=1.1.0",
+    "mcp>=1.28.1",
+    "mypy>=2.1.0",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.50.0",
+]
