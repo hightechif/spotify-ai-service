@@ -99,4 +99,5 @@ ehthumbs.db
 
 # Agent internal data
 .agent/
+.agents/
 .claude/
